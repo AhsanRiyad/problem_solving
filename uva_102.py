@@ -10,6 +10,11 @@
 # print("A=%0.4f" %area)
 
 
-a=int(input())
-b=int(input())
-print("PROD =",a*b)
+# a=int(input())
+# b=int(input())
+# print("PROD =",a*b)
+
+a=float(input())
+b=float(input())
+average=(a*3.5+b*7.5)/(3.5+7.5)
+print("MEDIA = %0.5f" %average)
